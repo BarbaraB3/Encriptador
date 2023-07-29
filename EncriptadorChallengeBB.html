@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8"> 
+    <title>Encriptador </title>
+    <link rel="stylesheet" href="reset.css/reset.css">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Inter&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+    <body >
+        <header >
+            <img class="logo" src="imagenes/Logo.svg" alt="logo">
+                       
+        </header>
+        <main>
+            <section class="seccionprim">
+                <div class="contenedor__cajatexto">
+                    <textarea placeholder="Ingrese texto aquí"class="cajatexto"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="imagenes/alerta.svg" alt="alerta" class="alerta__imagen">
+                    <p>Solo letras minusculas y sin acento</p>
+                </div>
+                <div class="contendor__botones">
+                    <input type="submit" value="Encriptar" class="encriptar">
+                    <input type="submit" value="Desencriptar" class="desencriptar">
+
+                </div>
+                
+            </section>
+            <section class="secciondos">
+                <div class="contenedorImagen">
+                    <img  src="imagenes/Muñeco.svg" alt="Imagenfigurita">
+                    
+                </div>
+                <div class="contenedor">
+                    <h3>Ningun mensaje fue <br> encontrado</h3>
+                    <p>Ingresa el texto que <br> desees encriptar <br> o desencriptar</p>
+                </div>
+                
+                <div class="contenedordos__resultado">
+                    <p class="texto_resultado"></p>
+                </div>
+                <div class="contenedordos__copiar">
+                    <input type="button" class="boton_copiar" value="Copiar">
+                </div>
+
+            </section>
+            
+            
+
+        </main>
+        <script src="script.js"></script>
+        <footer>
+            <h2>Barbara P.B.M.</h2>
+        </footer>
+    </body>
+</html>

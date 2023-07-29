@@ -1,0 +1,211 @@
+@import url(./reset.css/reset.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif ;
+}
+body{
+    background-color: #81aadb;
+    display: inline;
+}
+header{
+    width: 700px;
+    height: 60px;
+    display: flex;
+    flex-direction:row;
+}
+.logo{
+    width: 20%;
+    height: 35px ;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  
+    
+}
+main{
+    position: relative;
+    width: 1280px;
+    height: 600px;
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content:space-between;
+    margin: 10px;
+}
+.seccionprim{
+    flex: 70%;
+    
+}
+.contenedor__cajatexto{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    margin-left:150px;
+    width: 622px;;
+    height: 460px;
+    border:none;
+    border-radius: 5px;
+    background-color: #81aadb;
+   
+
+}
+.cajatexto{
+    flex: 80%;
+    width: 600px;
+    height: 460px;
+    border: none;
+    background: #81aadb;
+    cursor: pointer;
+    color: #072B61;
+    font-size: 20px;
+    font-weight: 10px;
+
+}
+.cajatexto::placeholder{
+    color: #072B61;
+}
+.alerta{
+    position:relative;
+    flex: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 10px;
+    margin-left: 150px;
+    color: rgb(110, 107, 107);
+}
+.contendor__botones{
+    position: relative;
+    flex: 15%;
+    flex-direction: row;
+    justify-content: left;
+    width:600px;
+    height:80px ;
+    padding-left: 150px;
+    padding-top: 15px;
+}
+.encriptar{
+    cursor:pointer;
+    margin-right: 5px;
+    width: 280px;
+    text-align: center;
+    color:bisque;
+    background-color: #072B61;
+    border: 1px solid #072B61;
+    border-radius: 10px;
+    padding: 20px 5px;
+    position: relative;
+
+}
+
+.desencriptar{
+    cursor:pointer;
+    width: 280px;
+    text-align: center;
+    background-color: #81aadb;
+    border: 1px solid #072B61;
+    border-radius: 10px;
+    padding:20px 5px;
+    position: relative;
+
+}
+.secciondos{
+    flex:30%;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width: 300px;
+    height: 580px;
+    background-color: #bad0f0;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+    margin-right: 60px;
+}
+.contenedorImagen{
+    flex:50%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    width: 370px;
+    height: 300px;
+    
+    
+}
+.contenedor{
+    flex: 20%;
+    position:relative;
+    box-sizing: border-box;
+    margin: 5px;
+    
+}
+.contenedor h3{
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(82, 78, 78);
+}
+.contenedor p{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(82, 78, 78);
+    padding: 5px;
+    
+}
+.contenedordos__resultado{
+    padding: 30px;
+    flex:70%;
+    text-align: center justify left;
+    position: relative;
+    padding: 20px;
+    width: 320px;
+    height: 100px;
+    margin-top: 5px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.contenedordos__resultado p{
+    word-wrap: break-word;
+    position: relative;
+    margin-top: 20px;
+    color:rgb(82, 78, 78) ;
+    font-size: 25px;
+}
+.contenedordos__copiar{
+    
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    justify-content: center;
+}
+.boton_copiar{
+    width: 300px;
+    height: 60px;
+    border-radius: 24px;
+    background-color: #bad0f0;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400px;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    position: relative;
+}
+
+.ocultar{
+    display: none;
+}
+
+footer{
+    text-align: center;
+    color:#0A3871;
+}
